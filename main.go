@@ -24,8 +24,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/meianuca/qualpraia/models"
-	"github.com/meianuca/qualpraia/qualpraia"
+	"github.com/meianuca/meianuca-go/models"
+	"github.com/meianuca/meianuca-go/qualpraia"
 )
 
 // Models initialization

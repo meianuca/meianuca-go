@@ -11,8 +11,8 @@ Qual praia? Informe direção do vento e swell para descobrir o melhor pico para
 `go build -o bin/qualpraia && ./bin/qualpraia`
 
 #### Project organization
-`
-meianuca/  
+```
+meianuca-go/
   main.go
   routes.go
   models.go
@@ -20,4 +20,4 @@ meianuca/
     qualpraia.go
   bin/
     meianuca
-`
+```
