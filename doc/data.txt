@@ -1,0 +1,101 @@
+[Regions]
+"Florianópolis"
+"Garopaba"
+"Imbituba"
+"Laguna"
+
+[Spots]
+"Açores"
+"Armação"
+"Barra da Lagoa"
+"Brava"
+"Caldeirão"
+"Campeche"
+"Galheta"
+"Galheta Norte"
+"Igrejinha"
+"Ingleses"
+"Joaquina"
+"Lagoinha do Leste"
+"Lomba do Sabão"
+"Matadeiro"
+"Moçambique"
+"Mole"
+"Morro das Pedras"
+"Naufragados"
+"Novo Campeche"
+"Pico da Cruz"
+"Riozinho"
+"Santinho"
+"Solidão"
+
+
+// TODO
+Camping da Barra
+Mole (Gravatá)
+
+Region { ID: "florianopolis", Name: "Florianópolis" },
+Region { ID: "garopaba", Name: "Garopaba" },
+Region { ID: "imbituba", Name: "Imbituba" },
+Region { ID: "laguna", Name: "Laguna" },
+
+models.Spot{ID: "acores", Name: "Açores", RegionID: "florianopolis"},
+models.Spot{ID: "armacao", Name: "Armação", RegionID: "florianopolis"},
+models.Spot{ID: "barra-da-lagoa", Name: "Barra da Lagoa", RegionID: "florianopolis"},
+models.Spot{ID: "brava", Name: "Brava", RegionID: "florianopolis"},
+models.Spot{ID: "caldeira", Name: "Caldeirão", RegionID: "florianopolis"},
+models.Spot{ID: "campeche", Name: "Campeche", RegionID: "florianopolis"},
+models.Spot{ID: "galheta", Name: "Galheta", RegionID: "florianopolis"},
+models.Spot{ID: "galheta-norte", Name: "Galheta Norte", RegionID: "florianopolis"},
+models.Spot{ID: "igrejinha", Name: "Igrejinha", RegionID: "florianopolis"},
+models.Spot{ID: "ingleses", Name: "Ingleses", RegionID: "florianopolis"},
+models.Spot{ID: "joaquina", Name: "Joaquina", RegionID: "florianopolis"},
+models.Spot{ID: "lagoinha-do-leste", Name: "Lagoinha do Leste", RegionID: "florianopolis"},
+models.Spot{ID: "lomba-do-sabao", Name: "Lomba do Sabão", RegionID: "florianopolis"},
+models.Spot{ID: "matadeiro", Name: "Matadeiro", RegionID: "florianopolis"},
+models.Spot{ID: "mocambique", Name: "Moçambique", RegionID: "florianopolis"},
+models.Spot{ID: "mole", Name: "Mole", RegionID: "florianopolis"},
+models.Spot{ID: "morro-das-pedras", Name: "Morro das Pedras", RegionID: "florianopolis"},
+models.Spot{ID: "naufragados", Name: "Naufragados", RegionID: "florianopolis"},
+models.Spot{ID: "novo-campeche", Name: "Novo Campeche", RegionID: "florianopolis"},
+models.Spot{ID: "pico-da-cruz", Name: "Pico da Cruz", RegionID: "florianopolis"},
+models.Spot{ID: "riozinho", Name: "Riozinho", RegionID: "florianopolis"},
+models.Spot{ID: "santinho", Name: "Santinho", RegionID: "florianopolis"},
+models.Spot{ID: "solidao", Name: "Solidão", RegionID: "florianopolis"},
+
+
+// With winds
+
+models.Spot{ID: "acores", Name: "Açores", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "armacao", Name: "Armação", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "barra-da-lagoa", Name: "Barra da Lagoa", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "brava", Name: "Brava", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "caldeira", Name: "Caldeirão", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "campeche", Name: "Campeche", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "galheta", Name: "Galheta", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "galheta-norte", Name: "Galheta Norte", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "igrejinha", Name: "Igrejinha", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "ingleses", Name: "Ingleses", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "joaquina", Name: "Joaquina", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "lagoinha-do-leste", Name: "Lagoinha do Leste", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "lomba-do-sabao", Name: "Lomba do Sabão", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "matadeiro", Name: "Matadeiro", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "mocambique", Name: "Moçambique", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "mole", Name: "Mole", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "morro-das-pedras", Name: "Morro das Pedras", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "naufragados", Name: "Naufragados", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "novo-campeche", Name: "Novo Campeche", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "pico-da-cruz", Name: "Pico da Cruz", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "riozinho", Name: "Riozinho", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "santinho", Name: "Santinho", RegionID: "florianopolis", Winds: {}},
+models.Spot{ID: "solidao", Name: "Solidão", RegionID: "florianopolis", Winds: {}},
+
+[Directions]
+"N", 0
+"NE", 45
+"L", 90
+"SE", 135
+"S", 180
+"SO", 225
+"O", 270
+"NO", 315
