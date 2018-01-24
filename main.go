@@ -22,6 +22,7 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
+	"os"
 
 	"github.com/gorilla/mux"
 	"github.com/meianuca/meianuca-go/models"
@@ -101,5 +102,9 @@ func main() {
 	// Regions
 	router.HandleFunc("/regions", GetAllRegions).Methods("GET")
 
-	log.Fatal(http.ListenAndServe(":8000", router))
+	port := os.Getenv("PORT")
+	if port == "" {
+		log.Fatal("$PORT must be set")
+	}
+	log.Fatal(http.ListenAndServe(":"+port, router))
 }
